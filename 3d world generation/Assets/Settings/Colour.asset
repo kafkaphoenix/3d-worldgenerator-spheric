@@ -12,23 +12,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3d7398042dd6d24399d2a3468de5864, type: 3}
   m_Name: Colour
   m_EditorClassIdentifier: 
-  gradient:
+  planetMaterial: {fileID: 2100000, guid: a7b0a7df96ef5cc4a8d412bfa6f720f5, type: 2}
+  biomeColourSettings:
+    biomes:
+    - gradient:
+        serializedVersion: 2
+        key0: {r: 0.5782503, g: 0.5943396, b: 0.41211286, a: 1}
+        key1: {r: 0.18876824, g: 0.3962264, b: 0.20421727, a: 0.9819277}
+        key2: {r: 0.19388448, g: 0.4245283, b: 0.09011215, a: 0}
+        key3: {r: 0.5943396, g: 0.3416145, b: 0.24390353, a: 0}
+        key4: {r: 0.33962262, g: 0.1605149, b: 0.08810965, a: 0}
+        key5: {r: 0.17489934, g: 0.082662195, b: 0.045374833, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 3277
+        ctime1: 8096
+        ctime2: 14842
+        ctime3: 35659
+        ctime4: 45104
+        ctime5: 58403
+        ctime6: 65535
+        ctime7: 65535
+        atime0: 1542
+        atime1: 65535
+        atime2: 65535
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 7
+        m_NumAlphaKeys: 2
+      tint: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
+      startHeight: 0
+      tintPercent: 0.173
+    - gradient:
+        serializedVersion: 2
+        key0: {r: 0.46611357, g: 0.5283019, b: 0.2267711, a: 1}
+        key1: {r: 0.42024675, g: 0.5, b: 0.12971699, a: 0.98208946}
+        key2: {r: 0.4716981, g: 0.4288517, b: 0.15797438, a: 0}
+        key3: {r: 0.509434, g: 0.36176905, b: 0.14177644, a: 0}
+        key4: {r: 0.30316252, g: 0.2152876, b: 0.0843707, a: 0}
+        key5: {r: 0.14230454, g: 0.10105603, b: 0.03960362, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 4048
+        ctime1: 13685
+        ctime2: 22552
+        ctime3: 34117
+        ctime4: 46646
+        ctime5: 56669
+        ctime6: 65535
+        ctime7: 65535
+        atime0: 0
+        atime1: 65342
+        atime2: 65535
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 7
+        m_NumAlphaKeys: 3
+      tint: {r: 0.4433962, g: 0.34927908, b: 0.34927908, a: 0}
+      startHeight: 0.517
+      tintPercent: 0.193
+    - gradient:
+        serializedVersion: 2
+        key0: {r: 0.26383945, g: 0.39130092, b: 0.46226418, a: 1}
+        key1: {r: 0.56350124, g: 0.60727197, b: 0.6320754, a: 1}
+        key2: {r: 0.66909933, g: 0.7461953, b: 0.7924528, a: 0}
+        key3: {r: 0.35346207, g: 0.40928325, b: 0.4433962, a: 0}
+        key4: {r: 0.493859, g: 0.5502212, b: 0.5849056, a: 0}
+        key5: {r: 0.6596209, g: 0.7256399, b: 0.764151, a: 0}
+        key6: {r: 0.7086597, g: 0.80604976, b: 0.8584906, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 5012
+        ctime2: 12722
+        ctime3: 17733
+        ctime4: 21395
+        ctime5: 40670
+        ctime6: 52043
+        ctime7: 65535
+        atime0: 0
+        atime1: 65535
+        atime2: 65535
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 7
+        m_NumAlphaKeys: 2
+      tint: {r: 0.509434, g: 0.50319844, b: 0.46377715, a: 0}
+      startHeight: 0.758
+      tintPercent: 0.207
+    noise:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.73
+        octaves: 4
+        baseRoughness: 1
+        roughness: 2
+        persistence: 0.59
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+      ridgidNoiseSettings:
+        strength: 1
+        octaves: 1
+        baseRoughness: 1
+        roughness: 2
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
+    noiseOffset: 1.1
+    noiseStrength: 0.28
+    blendAmount: 0.42
+  oceanColour:
     serializedVersion: 2
-    key0: {r: 0.2951673, g: 0.5331784, b: 0.6320754, a: 1}
-    key1: {r: 0.5628841, g: 0.5754717, b: 0.3555981, a: 1}
-    key2: {r: 0.35686275, g: 0.6627451, b: 0.47325963, a: 0}
-    key3: {r: 0.16940679, g: 0.3584906, b: 0.1504984, a: 0}
-    key4: {r: 0.4811321, g: 0.39251578, b: 0.2519135, a: 0}
-    key5: {r: 0.3584906, g: 0.30296203, b: 0.22152013, a: 0}
-    key6: {r: 1, g: 1, b: 1, a: 0}
+    key0: {r: 0.060074754, g: 0.10379486, b: 0.509434, a: 1}
+    key1: {r: 0.07824589, g: 0.17003374, b: 0.53785455, a: 1}
+    key2: {r: 0.19277322, g: 0.5875179, b: 0.7169812, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 8867
-    ctime2: 11565
-    ctime3: 20817
-    ctime4: 35852
-    ctime5: 46838
-    ctime6: 65535
+    ctime0: 5012
+    ctime1: 48188
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
     ctime7: 0
     atime0: 0
     atime1: 65535
@@ -39,6 +160,5 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 7
+    m_NumColorKeys: 3
     m_NumAlphaKeys: 2
-  planetMaterial: {fileID: 2100000, guid: a7b0a7df96ef5cc4a8d412bfa6f720f5, type: 2}
